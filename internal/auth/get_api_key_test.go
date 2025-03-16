@@ -7,10 +7,6 @@ import (
 	"testing"
 )
 
-func TestFailing(t *testing.T) {
-	t.Error()
-}
-
 func TestGetAPIKey(t *testing.T) {
 	tests := []struct {
 		key       string
